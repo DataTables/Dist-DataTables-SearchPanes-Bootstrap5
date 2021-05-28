@@ -1,0 +1,49 @@
+{
+    "name": "datatables.net-searchpanes-bs5",
+    "description": "SearchPanes for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+    "main": "js/searchPanes.bootstrap5.js",
+    "style": "css/searchPanes.bootstrap5.css",
+    "version": "1.2.2",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js"
+    ],
+    "keywords": [
+        "SearchPanes",
+ "search",
+ "filtering",
+        "Bootstrap",
+ "Bootstrap5",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-searchpanes": ">=1.2.2",
+        "datatables.net-bs5": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap5.git"
+    }
+}
