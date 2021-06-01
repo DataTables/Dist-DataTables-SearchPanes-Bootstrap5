@@ -3,7 +3,8 @@
     "description": "SearchPanes for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
     "main": "js/searchPanes.bootstrap5.js",
     "style": "css/searchPanes.bootstrap5.css",
-    "version": "1.2.2",
+    "types": "./types/searchPanes.bootstrap5.d.ts",
+    "version": "1.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -21,7 +22,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": ">=1.2.2",
+        "datatables.net-searchpanes": ">=1.3.0",
         "datatables.net-bs5": ">=1.10.24",
         "jquery": ">=1.7"
     },
