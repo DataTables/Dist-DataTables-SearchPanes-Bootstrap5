@@ -4,7 +4,7 @@
     "main": "js/searchPanes.bootstrap5.js",
     "style": "css/searchPanes.bootstrap5.css",
     "types": "./types/searchPanes.bootstrap5.d.ts",
-    "version": "1.4.0",
+    "version": "2.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
