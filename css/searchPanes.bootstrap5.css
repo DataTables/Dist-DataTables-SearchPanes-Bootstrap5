@@ -388,7 +388,7 @@ html[data-bs-theme=dark] div.dtsp-panesContainer div.dtsp-searchPane div.dataTab
   border: 1px solid rgba(255, 255, 255, 0.3) !important;
 }
 html[data-bs-theme=dark] div.dtsp-panesContainer div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody {
-  background: #2f3438 !important;
+  background: var(--bs-table-bg) !important;
 }
 html[data-bs-theme=dark] div.dtsp-panesContainer div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
   background-color: #212529;
