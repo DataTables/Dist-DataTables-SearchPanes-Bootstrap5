@@ -342,7 +342,7 @@ div.dtsp-panesContainer button.btn-subtle.disabled {
   opacity: 0.5;
 }
 div.dtsp-panesContainer button.btn-subtle:hover {
-  background-color: #cbd3da;
+  background-color: rgb(203.375, 210.75, 218.125);
 }
 div.dtsp-panesContainer button.dtsp-clearAll,
 div.dtsp-panesContainer button.dtsp-showAll {
