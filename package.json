@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchpanes-bs5",
     "description": "SearchPanes for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
-    "main": "js/searchPanes.bootstrap5.js",
-    "module": "js/searchPanes.bootstrap5.mjs",
-    "style": "css/searchPanes.bootstrap5.css",
+    "main": "./js/searchPanes.bootstrap5.js",
+    "module": "./js/searchPanes.bootstrap5.mjs",
+    "style": "./css/searchPanes.bootstrap5.css",
     "types": "./types/searchPanes.bootstrap5.d.ts",
     "version": "2.3.5",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchPanes",
@@ -49,5 +48,24 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap5.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchPanes.bootstrap5.d.ts",
+            "import": "./js/searchPanes.bootstrap5.mjs",
+            "default": "./js/searchPanes.bootstrap5.mjs",
+            "require": "./js/searchPanes.bootstrap5.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchPanes.bootstrap5.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
